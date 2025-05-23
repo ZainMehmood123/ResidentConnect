@@ -6,19 +6,25 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "extra": {
+      "IP_PORT_NO": "192.168.10.19:5000"
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "newArchEnabled": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "newArchEnabled": true,
+      "package": "com.anonymous.ResidentConnectApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
